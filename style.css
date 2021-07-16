@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    font-family: 'Lalezar', cursive;
+}
+
+body .h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    color: aliceblue;
+}
+
+body .h2 {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+#code {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 98%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    font-size: 18px;
+    direction: ltr;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+#show {
+    display: block;
+    border: 0 solid #000;
+    width: 95%;
+    padding: 10px;
+    background-color: darkgreen;
+    font-size: 24px;
+    transition: .4s;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+#show:hover {
+    background-color: wheat;
+    color: darkgreen;
+}
